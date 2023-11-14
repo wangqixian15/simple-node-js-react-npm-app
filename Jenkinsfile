@@ -1,3 +1,7 @@
+PATH=/usr/local/bin:$PATH
+export PATH
+echo $PATH
+
 pipeline {
     agent {
         docker {
